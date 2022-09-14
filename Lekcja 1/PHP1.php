@@ -15,8 +15,19 @@ P{
         $z = 1;
         echo "<p>HEllO WORLD <br>
         My counter $z <br>
-        HEllO Friend</p>"
+        HEllO Friend</p>";
 
+		$w = 5;
+		echo "Masz $w wiadomosci <br><br>";
+
+		if($w == 0)
+		{
+		 echo "brak wiadomosci";
+		}
+		else
+		{
+		 echo "Masz $w wiadomosci ";
+		}
         ?>
         
 	</body>
